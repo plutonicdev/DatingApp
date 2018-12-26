@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- top navigation -->
+    <include layout="@layout/layout_top_navigation_view" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/profile_bg"
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.quintus.labs.datingapp.Utils.PulsatorLayout
+                android:id="@+id/pulsator"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_centerInParent="true"
+                app:pulse_color="@color/colorAccent"
+                app:pulse_count="3"
+                app:pulse_duration="5000"
+                app:pulse_interpolator="Decelerate"
+                app:pulse_repeat="0"
+                app:pulse_startFromScratch="false">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circle_profile_image"
+                    android:layout_width="151dp"
+                    android:layout_height="161dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="59dp"
+                    android:src="@drawable/monkey"
+                    app:civ_border_color="@color/transparentPink"
+                    app:civ_border_width="2dp" />
+            </com.quintus.labs.datingapp.Utils.PulsatorLayout>
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Santosh Kumar"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/edit_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/circle_background"
+                    android:gravity="center"
+                    android:onClick="Edit_Profile"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_edit"
+                    tools:ignore="NotSibling" />
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="2dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="#e5e5e5" />
+
+                <ImageButton
+                    android:id="@+id/settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/circle_background"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_settings" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"></LinearLayout>
+
+        <!--dfs-->
+    </LinearLayout>
+
+
+</LinearLayout>
