@@ -13,7 +13,6 @@ Android app like Tinder.
 
 * [LoveDating](https://github.com/quintuslabs/DatingApp/blob/master/lovedating1.0.apk) - Download APK
 <br/>
-## Contributing
 
 <br/>
 Dating UI kit is used for online meet up with girls and boys . The screen contains more than 30 icons and most of all required elements required to design an application like this.
