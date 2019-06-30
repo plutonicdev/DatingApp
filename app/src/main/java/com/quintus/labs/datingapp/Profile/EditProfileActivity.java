@@ -36,9 +36,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * Created by Quintus Labs on 22-Dec-2018.
- * www.quintuslabs.com
+ * DatingApp
+ * https://github.com/quintuslabs/DatingApp
+ * Created on 25-sept-2018.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
+
 public class EditProfileActivity extends AppCompatActivity {
     private static final String TAG = "EditProfileActivity";
     private static final int PERMISSION_CALLBACK_CONSTANT = 100;

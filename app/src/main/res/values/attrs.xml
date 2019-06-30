@@ -1,4 +1,10 @@
 <resources>
+    <!--
+   * DatingApp
+    * https://github.com/quintuslabs/DatingApp
+    * Created on 25-sept-2018.
+    * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+    -->
     <declare-styleable name="Pulsator4Droid">
         <attr name="pulse_count" format="integer" />
         <attr name="pulse_duration" format="integer" />

@@ -17,9 +17,12 @@ import com.quintus.labs.datingapp.Matched.Matched_Activity;
 import com.quintus.labs.datingapp.R;
 
 
+
 /**
- * Created by Quintus Labs on 19-Dec-2018.
- * www.quintuslabs.com
+ * DatingApp
+ * https://github.com/quintuslabs/DatingApp
+ * Created on 25-sept-2018.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 
 public class NotificationHelper extends ContextWrapper {

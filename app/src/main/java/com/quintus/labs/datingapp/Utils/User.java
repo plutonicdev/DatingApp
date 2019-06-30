@@ -3,8 +3,10 @@ package com.quintus.labs.datingapp.Utils;
 import java.io.Serializable;
 
 /**
- * Created by Quintus Labs on 18-Dec-2018.
- * www.quintuslabs.com
+ * DatingApp
+ * https://github.com/quintuslabs/DatingApp
+ * Created on 25-sept-2018.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 
 public class User implements Serializable {

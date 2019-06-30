@@ -1,4 +1,10 @@
 <resources>
+    <!--
+    * DatingApp
+     * https://github.com/quintuslabs/DatingApp
+     * Created on 25-sept-2018.
+     * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+     -->
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>

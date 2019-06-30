@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+   * DatingApp
+    * https://github.com/quintuslabs/DatingApp
+    * Created on 25-sept-2018.
+    * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+    -->
 <resources>
     <color name="colorPrimary">#d13135</color>
     <color name="colorPrimaryDark">#d13135</color>

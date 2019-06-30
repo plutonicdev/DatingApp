@@ -1,4 +1,10 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+   * DatingApp
+    * https://github.com/quintuslabs/DatingApp
+    * Created on 25-sept-2018.
+    * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
+    -->
     <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
     <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
     <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>

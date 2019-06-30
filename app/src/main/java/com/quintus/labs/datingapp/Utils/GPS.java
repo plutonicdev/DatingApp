@@ -10,8 +10,10 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 
 /**
- * Created by Quintus Labs on 22-Dec-2018.
- * www.quintuslabs.com
+ * DatingApp
+ * https://github.com/quintuslabs/DatingApp
+ * Created on 25-sept-2018.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
 
 public class GPS implements LocationListener {

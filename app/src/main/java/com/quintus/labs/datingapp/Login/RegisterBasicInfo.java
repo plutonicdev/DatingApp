@@ -17,9 +17,12 @@ import com.quintus.labs.datingapp.Utils.GPS;
 import com.quintus.labs.datingapp.Utils.User;
 
 /**
- * Created by Quintus Labs on 18-Dec-2018.
- * www.quintuslabs.com
+ * Grocery App
+ * https://github.com/quintuslabs/GroceryStore
+ * Created on 18-Feb-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
+
 public class RegisterBasicInfo extends AppCompatActivity {
     private static final String TAG = "RegisterActivity";
     GPS gps;

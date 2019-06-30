@@ -15,9 +15,12 @@ import com.quintus.labs.datingapp.R;
 import com.yahoo.mobile.client.android.util.rangeseekbar.RangeSeekBar;
 
 /**
- * Created by Quintus Labs on 22-Dec-2018.
- * www.quintuslabs.com
+ * Grocery App
+ * https://github.com/quintuslabs/GroceryStore
+ * Created on 18-Feb-2019.
+ * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
  */
+
 public class SettingsActivity extends AppCompatActivity {
     private static final String TAG = "SettingsActivity";
     SeekBar distance;
