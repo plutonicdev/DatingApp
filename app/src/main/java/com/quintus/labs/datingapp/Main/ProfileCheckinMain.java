@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -19,7 +20,7 @@ import com.quintus.labs.datingapp.R;
 public class ProfileCheckinMain extends AppCompatActivity {
 
     private Context mContext;
-
+    String profileImageUrl;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +55,7 @@ public class ProfileCheckinMain extends AppCompatActivity {
         profileBio.setText(bio);
         profileInterest.setText(interest);
 
-        String profileImageUrl = intent.getStringExtra("photo");
+        profileImageUrl = intent.getStringExtra("photo");
         switch (profileImageUrl) {
             case "defaultFemale":
                 Glide.with(mContext).load(R.drawable.default_woman).into(profileImage);
@@ -67,4 +68,21 @@ public class ProfileCheckinMain extends AppCompatActivity {
                 break;
         }
     }
+
+
+    public void DislikeBtn(View v) {
+
+            Intent btnClick = new Intent(mContext, BtnDislikeActivity.class);
+            btnClick.putExtra("url", profileImageUrl);
+            startActivity(btnClick);
+
+    }
+
+    public void LikeBtn(View v) {
+            Intent btnClick = new Intent(mContext, BtnLikeActivity.class);
+            btnClick.putExtra("url", profileImageUrl);
+            startActivity(btnClick);
+
+    }
+
 }
