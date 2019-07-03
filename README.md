@@ -11,7 +11,7 @@ Android app like Tinder.
 
 ## Download
 
-* [LoveDating](https://github.com/quintuslabs/DatingApp/blob/master/lovedating1.1.apk) - Download APK
+* [LoveDating](https://github.com/quintuslabs/DatingApp/blob/master/lovedating1.2.apk) - Download APK
 <br/>
 
 <br/>
