@@ -61,7 +61,7 @@ public class BtnLikeActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
-               
+
                 Intent mainIntent = new Intent(BtnLikeActivity.this, MainActivity.class);
                 startActivity(mainIntent);
             }
