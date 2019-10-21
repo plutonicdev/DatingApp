@@ -56,7 +56,7 @@
                 android:orientation="vertical">
 
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginBottom="8dp"
@@ -70,9 +70,9 @@
                         android:hint="Email"
                         android:inputType="textEmailAddress"
                         android:padding="15dp" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginTop="8dp"
@@ -88,9 +88,9 @@
                         android:hint="Password"
                         android:inputType="textPassword"
                         android:padding="15dp" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_login"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

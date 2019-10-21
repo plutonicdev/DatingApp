@@ -79,7 +79,7 @@
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginTop="5dp"
@@ -94,9 +94,9 @@
                         android:hint="entry your Email"
                         android:inputType="textEmailAddress"
                         android:padding="15dp" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginTop="5dp"
@@ -111,9 +111,9 @@
                         android:hint="enter your username "
                         android:inputType="textEmailAddress"
                         android:padding="15dp" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
                     android:layout_marginTop="5dp"
@@ -129,9 +129,9 @@
                         android:hint="enter your Password"
                         android:inputType="textPassword"
                         android:padding="15dp" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btn_register"
                     style="@android:style/Widget.Material.Button.Borderless.Colored"
                     android:layout_width="match_parent"
